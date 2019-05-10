@@ -23,4 +23,7 @@ class XWORLD_API UXBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
 	UFUNCTION(BlueprintCallable, Category = "XdLib")
 	static void AddAxisMapping(const FInputAxisKeyMapping& AxisMapping);
 
+	UFUNCTION(BlueprintCallable, Category = "XdLib")
+	static UObject* SpawnObject(UObject* owner, UClass* ObjClass);
+
 };

@@ -3,4 +3,4 @@
 #include "xWorld.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, xWorld, "xWorld" );
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, xWorld, "xWorld" ); 

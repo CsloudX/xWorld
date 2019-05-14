@@ -15,7 +15,7 @@ AWarrior::AWarrior()
 
 // Called when the game starts or when spawned
 void AWarrior::BeginPlay()
-{
+{ 
 	Super::BeginPlay();
 }
 

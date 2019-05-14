@@ -13,8 +13,4 @@ void UXBlueprintFunctionLibrary::AddAxisMapping(const FInputAxisKeyMapping & Axi
 	UPlayerInput::AddEngineDefinedAxisMapping(AxisMapping);
 }
 
-UObject* UXBlueprintFunctionLibrary::SpawnObject(UObject* Owner, UClass* ObjClass)
-{
-	UWorld* World = GEngine->GetWorldFromContextObjectChecked(Owner);
-	return NewObject<UObject>(World, ObjClass);
-}
+

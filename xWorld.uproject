@@ -23,6 +23,10 @@
 		{
 			"Name": "NiagaraExtras",
 			"Enabled": true
+		},
+		{
+			"Name": "XdLib",
+			"Enabled": false
 		}
 	]
 }

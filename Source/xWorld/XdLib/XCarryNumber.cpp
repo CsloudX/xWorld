@@ -6,7 +6,6 @@
 UXCarryNumberBase::UXCarryNumberBase()
 	:Level(1),Value(0),EndValue(100)
 {
-	
 }
 UXCarryNumberBase::~UXCarryNumberBase() {}
 

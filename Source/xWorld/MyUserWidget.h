@@ -3,7 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Blueprint/BlueprintSupport.h"
 #include "Blueprint/UserWidget.h"
+#include "UMG.h"
 #include "MyUserWidget.generated.h"
 
 /**

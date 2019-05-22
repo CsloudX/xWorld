@@ -156,6 +156,6 @@ void UXTimerNumber::Initialize(float _MinValue, float _MaxValue, float _Increase
 	IncreaseTimerInterval = _IncreaseTimerInterval;
 	DecreaseTimerInterval = _DecreaseTimerInterval;
 	IncreaseRate = _IncreaseRate;
-	DecreaseRate = _DecreaseRate;
+	DecreaseRate = _DecreaseRate; 
 	IsExclusive = _IsExclusive;
 }

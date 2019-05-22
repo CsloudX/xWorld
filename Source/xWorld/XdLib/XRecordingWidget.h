@@ -10,8 +10,16 @@
  * 
  */
 UCLASS()
-class XWORLD_API UXRecordingWidget : public UUserWidget
+class UXRecordingWidget : public UUserWidget
 {
 	GENERATED_BODY()
 	
+public:
+	UPROPERTY()
+	class UImage* Image;
+
+public:
+	UXRecordingWidget(const FObjectInitializer& ObjectInitializer);
+
+	virtual bool Initialize() override;
 };
